@@ -25,9 +25,5 @@ public class Controller {
 		return new ResponseEntity<String>("test2", HttpStatus.OK);
 	}
 	
-	@GetMapping("/test3")
-	public ResponseEntity<?> testThree(){
-		return new ResponseEntity<String>("test3", HttpStatus.OK);
-	}
 
 }
