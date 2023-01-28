@@ -22,6 +22,11 @@ public class Controller {
 	
 	@GetMapping("/test2")
 	public ResponseEntity<?> testTwo(){
-		return new ResponseEntity<String>("test1", HttpStatus.OK);
+		return new ResponseEntity<String>("test2", HttpStatus.OK);
+	}
+	
+	@GetMapping("/test3")
+	public ResponseEntity<?> testThree(){
+		return new ResponseEntity<String>("test3", HttpStatus.OK);
 	}
 }
