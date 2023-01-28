@@ -14,4 +14,9 @@ public class Controller {
 	public ResponseEntity<?> getHeartBeat(){
 		return new ResponseEntity<String>("Alive", HttpStatus.OK);
 	}
+	
+	@GetMapping("/test1")
+	public ResponseEntity<?> testOne(){
+		return new ResponseEntity<String>("test1", HttpStatus.OK);
+	}
 }
